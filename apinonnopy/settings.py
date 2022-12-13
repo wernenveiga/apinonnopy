@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'apinonnopy.wsgi.application'
 DATABASES = {
     'default': 
         dj_database_url.config(
-            default='postgresql://postgres:postgres@dpg-cebtf7qrrk0506tceuk0-a:5432/apinonnopy',
+            default='postgres://apinonnopy:d0verBR1DMzKg5mwPPQdZuTUVI8xDPb5@dpg-cebtf7qrrk0506tceuk0-a/apinonnopy',
             conn_max_age=600    
         )
 }
