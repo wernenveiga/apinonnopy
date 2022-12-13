@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-%86yk##u_uo40np!%=jywcj0hk&shfiyjil^%j8s-30jujl&-6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://apinonnopy.onrender.com/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'apinonnopy.wsgi.application'
 DATABASES = {
     'default': 
         dj_database_url.config(
-            default='postgresql://postgres:postgres@localhost:5432/mysite',
+            default='postgresql://postgres:postgres@dpg-cebtf7qrrk0506tceuk0-a:5432/apinonnopy',
             conn_max_age=600    
         )
 }
